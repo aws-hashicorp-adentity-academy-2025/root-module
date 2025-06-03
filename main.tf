@@ -12,7 +12,7 @@ module "iam-admin" {
 
 module "iam-s3" {
   source  = "aws-hashicorp-adentity-academy-2025/iam-s3/aws"
-  version = "0.1.3"
+  version = "0.1.4"
 
   postfix = random_string.random.result
 }
